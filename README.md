@@ -1,3 +1,7 @@
+<img width="911" alt=" Remember Words Tailored to Your" src="https://github.com/user-attachments/assets/8d4e8fd6-b11f-42bc-a464-370b52aba2d3" />
+
+
+
 # Doyouremember - Your Personal Vocabulary Assistant
 
 A web application that helps you learn new vocabulary by generating word cards with meanings, examples, audio pronunciations, and images, then automatically adding them to Anki.
@@ -109,3 +113,5 @@ This project is licensed under the Non-Commercial Public License (NCPL). This me
 - Remove or modify this license notice
 
 All API keys and services used in this project require separate licenses and terms of service agreements. 
+
+
