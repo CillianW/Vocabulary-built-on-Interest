@@ -1,5 +1,6 @@
 <img width="911" alt=" Remember Words Tailored to Your" src="https://github.com/user-attachments/assets/8d4e8fd6-b11f-42bc-a464-370b52aba2d3" />
 
+<img width="1065" alt="image" src="https://github.com/user-attachments/assets/15e713fe-2d4c-4ac8-921e-10f986cd35f1" />
 
 
 # Doyouremember - Your Personal Vocabulary Assistant
