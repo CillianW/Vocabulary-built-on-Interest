@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doyouremember - Your Vocabulary Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✨ Remember Words Tailored to Your Interests ✨</h1>
+            <p class="tagline">🎯 Your personalized vocabulary companion – learning words has never been this easy! 🚀</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <input type="text" id="topic" placeholder="✍️ Type a topic… (e.g., AI, Finance, Music)">
+                <button id="generate-btn">Generate Words ⚡</button>
+            </div>
+
+            <div class="suggested-topics">
+                <p>✨ Try these topics:</p>
+                <div class="topic-buttons">
+                    <button class="topic-btn" data-topic="AI">🔥 AI</button>
+                    <button class="topic-btn" data-topic="Space">🚀 Space</button>
+                    <button class="topic-btn" data-topic="Crypto">💰 Crypto</button>
+                    <button class="topic-btn" data-topic="Design">🎨 Design</button>
+                    <button class="topic-btn" data-topic="Marketing">📈 Marketing</button>
+                </div>
+            </div>
+
+            <div class="loading" style="display: none;">
+                <p>🔍 Finding the best words for you…</p>
+                <div class="spinner"></div>
+            </div>
+
+            <div class="results-section" style="display: none;">
+                <div id="words-container"></div>
+                <button id="create-anki-btn">📚 Add to Anki</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
